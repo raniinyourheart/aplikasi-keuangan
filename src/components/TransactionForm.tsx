@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Transaction } from '@/types';
+import { Transaction } from '../types';
 
 interface Props {
   onAdd: (transaction: Transaction) => void;

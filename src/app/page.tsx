@@ -1,10 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import TransactionForm from '@/components/TransactionForm';
-import TransactionList from '@/components/TransactionList';
-import { Transaction } from '@/types';
-import { storage } from '@/utils/storage';
+import TransactionForm from '../components/TransactionForm';
+import TransactionList from '../components/TransactionList';
+import { Transaction } from '..//types';
+import { storage } from '../utils/storage';
 
 export default function Home() {
   const [transactions, setTransactions] = useState<Transaction[]>([]);

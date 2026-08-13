@@ -1,6 +1,6 @@
 'use client';
 
-import { Transaction } from '@/types';
+import { Transaction } from '../types';
 import { format } from 'date-fns';
 import { id } from 'date-fns/locale';
 
